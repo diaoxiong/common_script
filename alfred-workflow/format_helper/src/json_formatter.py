@@ -5,9 +5,9 @@ import json
 
 def main():
     script_name, query = get_arg_from_cmd()
-    formatted_json = format_json(query)
+    result = format_json(query)
     # 输出结果
-    print(formatted_json)
+    print(result)
 
 
 def format_json(query):

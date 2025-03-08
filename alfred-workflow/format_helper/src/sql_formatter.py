@@ -10,9 +10,9 @@ import sqlparse
 
 def main():
     script_name, query = get_arg_from_cmd()
-    formatted_sql = format_sql(query)
+    result = format_sql(query)
     # 输出结果
-    print(formatted_sql)
+    print(result)
 
 
 def format_sql(query):
